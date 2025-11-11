@@ -1,0 +1,14 @@
+{
+  "name": "SageMath 9.8",
+  "image": "sagemath/sagemath:9.8",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python"]
+    }
+  },
+  "workspaceFolder": "/home/sage/project",
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/home/sage/project,type=bind"
+  ],
+  "remoteUser": "sage"
+}
